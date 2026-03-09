@@ -12,8 +12,13 @@
   issues: [警告、错误、环境变量、字体缺失],
   clan: [排版系统原神],
   benchmark: [texlive],
+  benchmark-task: [配置], 
   service-mark: [#text(size: 1em, font: "Libertinus Serif")[t]],
-  icon: [#text(size: 3.5em, font: "Libertinus Serif")[t]]
+  icon: [#text(size: 3.5em, font: "Libertinus Serif")[t]], 
+  task: [安装], 
+  price: [500], 
+  look-at: [命令行代码], 
+  during-text: [工具链装了电脑半年, 环境还是个半成品不全]
 ) => {
   set page(margin: 0em)
 
@@ -37,7 +42,7 @@
       #box(width: 5%, height: 100%)[]
       #box(width: 65%, height: 100%)[
         #install-target #location \
-        上门安装
+        上门#task
       ]
       #box(width: 25%, height: 100%)[
         #icon
@@ -48,12 +53,12 @@
   block(fill: layer-2-color, below: 0em, width: 100%, height: 25%, inset: 2em)[
     #block(below: 3em)[
       #set text(size: 2.5em)
-      全男娘工程师团队 | #location #install-target 上门安装
+      全男娘工程师团队 | #location #install-target 上门#task
     ]
     #block()[
       #set text(size: 2em)
-      兄弟们谁懂啊 $dots.c dots.c$ 看着命令行代码头都大了, \
-      #install-target 工具链装了电脑半年, 环境还是个半成品不全, \
+      兄弟们谁懂啊 $dots.c dots.c$ 看着#look-at;头都大了, \
+      #install-target#during-text, \
       #issues $dots.c dots.c$ 九敏! \
       我们来了 #text(fill: rgb("#ffbb57"))[✨]
     ]
@@ -101,7 +106,7 @@
     #box[
       #set list(marker: service-mark)
       - 系统基础环境优化与降定调优
-      - #install-target 精细化安装与常用 AI 配置
+      - #install-target 精细化#task;与常用 AI 配置
       - 原生开发环境, 高性能模式与 AGENTS 优化
       - 命令行报错排查与降维打击式修复
       - 深度稳定性测试与功能全通验证
@@ -132,10 +137,10 @@
           价格 #h(5em)
         ]
         #v(-1em)
-        #text(fill: layer-4-color, size: 2em)[500] / 次 #text(size: 0.6em)[(一次性收费, 甚至比你的 #benchmark 配置还便宜)]
+        #text(fill: layer-4-color, size: 2em)[#price] / 次 #text(size: 0.6em)[(一次性收费, 甚至比你的#benchmark#benchmark-task;还便宜)]
 
         不加价, 不隐形消费 \
-        安装完成可现场温柔验收
+        #task;完成可现场温柔验收
 
         #title[
           #text(fill: rgb("#ce3b61"))[📌]

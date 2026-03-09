@@ -10,6 +10,7 @@
 | - | - |
 | ![](./rust.png) | ![](./typst.png) |
 | ![](./moonbit.png) | ![](./lean.png) |
+| ![](./openclaw.png) | ![](./placeholder.png) |
 
 ## 贡献 ⊢ Contributing
 
