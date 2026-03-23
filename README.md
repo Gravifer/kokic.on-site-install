@@ -22,6 +22,9 @@
 1. 确保本地安装了 [Typst] 命令行工具 \
   Ensure that the [Typst] command-line tool is installed locally
 
+1. 确保本地安装了 [Segoe Fluent Emoji 3D][segoeemj] 或等效字体
+  Ensure that [Segoe Fluent Emoji 3D][segoeemj] or an equivalent font is installed locally
+
 在仓库根目录执行以下命令
 
 Execute the following command in the root directory of this repository
@@ -36,6 +39,7 @@ Check whether the files `typst.new.png` and `typst.png` are consistent.
 
 [noto-cjk]: https://github.com/notofonts/noto-cjk
 [typst]: https://github.com/typst/typst
+[segoeemj]: https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiColor.ttf
 
 ### 约定 ⊢ Convention
 
