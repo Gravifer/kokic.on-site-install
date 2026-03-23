@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y fonts-noto-core fonts-noto-cjk curl && sudo mkdir -p /usr/local/share/fonts && sudo curl -fL -o /usr/local/share/fonts/FluentEmojiColor.ttf https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiColor.ttf && fc-cache -fv",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y fonts-noto-cjk curl && sudo mkdir -p /usr/local/share/fonts && sudo curl -fL -o /usr/local/share/fonts/FluentEmojiColor.ttf https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiColor.ttf && fc-cache -fv",
   "customizations": {
     "vscode": {
       "extensions": [
