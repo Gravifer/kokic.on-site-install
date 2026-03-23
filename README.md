@@ -25,6 +25,10 @@
 1. 确保本地安装了 [Segoe Fluent Emoji 3D][segoeemj] 或等效字体 \
   Ensure that [Segoe Fluent Emoji 3D][segoeemj] or an equivalent font is installed locally
 
+> 或者, 使用 [devcontainer.json](.devcontainer/devcontainer.json) 配置容器, 例如
+> 
+> [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kokic/on-site-install?quickstart=1)
+
 在仓库根目录执行以下命令
 
 Execute the following command in the root directory of this repository
