@@ -1,7 +1,10 @@
 {
   "name": "Typst Poster Development",
-  "build": {
-    "dockerfile": "Dockerfile"
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/typst:1": {
+      "version": "latest"
+    }
   },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y --no-install-recommends fonts-noto-cjk && fc-cache -fv",
   "customizations": {
