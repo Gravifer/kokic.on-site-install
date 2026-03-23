@@ -1,5 +1,5 @@
 {
-  "name": "Typst Poster Development",
+  "name": "Typst Poster Development (Docker)",
   "build": {
     "dockerfile": "Dockerfile"
   },
